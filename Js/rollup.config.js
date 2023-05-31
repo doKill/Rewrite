@@ -16,7 +16,7 @@ export default {
     input: entries,
     output: {
         dir: 'dist',
-        format: 'cjs'
+        format: 'umd'
     },
     plugins: [
         babel({
