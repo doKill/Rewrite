@@ -16,7 +16,8 @@ export default {
     input: entries,
     output: {
         dir: 'dist',
-        format: 'umd'
+        format: 'cjs'
+        // entryFileNames: '[name]-[hash].js'
     },
     plugins: [
         babel({
