@@ -2,7 +2,7 @@ name: Build
 on: push
 jobs:
   build:
-    runs-on: macos-latest
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
       - name: Setup Node.js
@@ -21,3 +21,9 @@ jobs:
       - name: Build with rollup
         working-directory: ./Js
         run: npx rollup -c
+      - name: Commit and push
+        uses: github-actions-x/commit@v2.9
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          push-branch: "master"
+          files: Js/dist
