@@ -18,7 +18,7 @@ const entries = files.reduce((obj, file) => {
 export default {
     input: entries,
     output: {
-        dir: 'dist',
+        dir: 'Js/dist',
         format: 'cjs',
         strict: false
     },
