@@ -17,8 +17,8 @@ export default {
     output: {
         dir: 'dist',
         format: 'cjs',
-        strict: false
-        // entryFileNames: '[name]-[hash].js'
+        strict: false,
+        entryFileNames: '[name]-[hash].js'
     },
     plugins: [
         babel({
@@ -26,6 +26,6 @@ export default {
             presets: ['@babel/preset-env'],
             plugins: ['@babel/plugin-proposal-optional-chaining']
         }),
-        terser()
+        // terser()
     ]
 };
