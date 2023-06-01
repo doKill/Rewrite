@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import babel from 'rollup-plugin-babel';
 import { terser } from 'rollup-plugin-terser';
-import { rimrafSync } from 'rimraf';
+// import { rimrafSync } from 'rimraf';
 
 const files = fs.readdirSync('src');
 const entries = files.reduce((obj, file) => {
@@ -13,7 +13,7 @@ const entries = files.reduce((obj, file) => {
     return obj;
 }, {});
 
-rimrafSync('dist');
+// rimrafSync('dist');
 
 export default {
     input: entries,
