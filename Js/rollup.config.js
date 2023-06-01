@@ -16,7 +16,8 @@ export default {
     input: entries,
     output: {
         dir: 'dist',
-        format: 'cjs'
+        format: 'cjs',
+        strict: false
         // entryFileNames: '[name]-[hash].js'
     },
     plugins: [
