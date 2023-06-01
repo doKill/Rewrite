@@ -2,6 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import babel from 'rollup-plugin-babel';
 import { terser } from 'rollup-plugin-terser';
+import { rimraf } from 'rimraf';
 
 const files = fs.readdirSync('src');
 const entries = files.reduce((obj, file) => {
@@ -12,13 +13,14 @@ const entries = files.reduce((obj, file) => {
     return obj;
 }, {});
 
+rimraf('dist');
+
 export default {
     input: entries,
     output: {
         dir: 'dist',
         format: 'cjs',
-        strict: false,
-        entryFileNames: '[name]-[hash].js'
+        strict: false
     },
     plugins: [
         babel({
@@ -26,6 +28,6 @@ export default {
             presets: ['@babel/preset-env'],
             plugins: ['@babel/plugin-proposal-optional-chaining']
         }),
-        // terser()
+        terser()
     ]
 };
