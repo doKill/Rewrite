@@ -24,8 +24,8 @@ jobs:
         working-directory: ./Js
         run: npx rollup -c
       - name: Commit and push
-        uses: github-actions-x/commit@v2.9
+        uses: actions-x/commit@v6
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          push-branch: "master"
-          files: Js/dist
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: "master"
+          files: .
