@@ -16,8 +16,8 @@ jobs:
           key: npm-${{ hashFiles('package-lock.json') }}
           restore-keys: npm-
       - name: Install dependencies
-        working-directory: Js/
+        working-directory: ./Js
         run: npm ci
       - name: Build with rollup
-        working-directory: Js/
+        working-directory: ./Js
         run: npx rollup -c
