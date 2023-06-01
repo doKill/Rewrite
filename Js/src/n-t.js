@@ -1,4 +1,4 @@
-const hi = () => {
-    console.log(111);
+const hi = (num = 123) => {
+    console.log(num);
 }
-hi()
+hi(111)
