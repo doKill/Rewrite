@@ -6,10 +6,12 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Setup Node.js
+        working-directory: Js/
         uses: actions/setup-node@v3
         with:
           node-version: "18.16.0"
       - name: Cache dependencies
+        working-directory: Js/
         uses: actions/cache@v3
         with:
           path: ~/.npm
