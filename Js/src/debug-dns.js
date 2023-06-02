@@ -1,4 +1,4 @@
-const record = { "host": "me.debug", "ips": ["192.168.50.247"], "ttl": 60 };
+const record = { "host": "me.debug", "ips": ["192.168.50.247"], "ttl": -1 };
 const message = {
     action: "dns_update_cache",
     content: record
