@@ -1,31 +1,31 @@
-name: Build
-on: push
-permissions:
-  contents: write
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: "18.16.0"
-      - name: Cache dependencies
-        uses: actions/cache@v3
-        with:
-          path: ~/.npm
-          key: npm-${{ hashFiles('package-lock.json') }}
-          restore-keys: npm-
-      - name: Install dependencies
-        working-directory: ./Js
-        run: npm ci
-      - name: Build with rollup
-        working-directory: ./Js
-        run: npx rollup -c
-      - name: Commit and push
-        uses: actions-x/commit@v6
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          branch: "master"
-          files: .
+# name: Build
+# on: push
+# permissions:
+#   contents: write
+# jobs:
+#   build:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - uses: actions/checkout@v3
+#       - name: Setup Node.js
+#         uses: actions/setup-node@v3
+#         with:
+#           node-version: "18.16.0"
+#       - name: Cache dependencies
+#         uses: actions/cache@v3
+#         with:
+#           path: ~/.npm
+#           key: npm-${{ hashFiles('package-lock.json') }}
+#           restore-keys: npm-
+#       - name: Install dependencies
+#         working-directory: ./Js
+#         run: npm ci
+#       - name: Build with rollup
+#         working-directory: ./Js
+#         run: npx rollup -c
+#       - name: Commit and push
+#         uses: actions-x/commit@v6
+#         with:
+#           token: ${{ secrets.GITHUB_TOKEN }}
+#           branch: "master"
+#           files: .
