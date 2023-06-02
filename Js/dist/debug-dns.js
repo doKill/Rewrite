@@ -1,0 +1,1 @@
+var e={action:"dns_update_cache",content:{host:"me.debug",ips:["192.168.50.247"],ttl:60}};$configuration.sendMessage(e).then((function(e){if(e.error&&console.log(e.error),e.ret){var n=JSON.stringify(e.ret);console.log(n)}$done()}),(function(e){$done()}));
