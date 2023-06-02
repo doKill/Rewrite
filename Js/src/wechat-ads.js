@@ -1,3 +1,7 @@
-// let { body } = $response;
+let { body } = $response;
+body = JSON.parse(body)
 
-$done(JSON.stringify({}))
+body.advertisement_num = 0;
+body.advertisement_info = [];
+
+$done(JSON.stringify(body))
