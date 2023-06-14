@@ -1,17 +1,4 @@
-async function hello (args) {
-    let res = await delay(3000);
-    console.log(res);
-}
 
-const delay = (time = 2000) => {
-    return new Promise((resolve, reject) => {
-        setTimeout(() => {
-            resolve(111)
-        }, time);
-    })
-}
-
-hello();
 
 
 // $request, $response, $notify(title, subtitle, message), console.log(message)
