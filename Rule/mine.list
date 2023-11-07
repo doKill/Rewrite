@@ -1,2 +1,21 @@
 host,wxa.wxs.qq.com,reject
 host,xdiwbc.com,reject
+
+# Apple
+HOST, advertising.apple.com, REJECT
+HOST, api-adservices.apple.com, REJECT
+HOST, apple.comscoreresearch.com, REJECT
+HOST, banners.itunes.apple.com, REJECT
+HOST, iad.apple.com, REJECT
+HOST, iadcontent.apple.com, REJECT
+HOST, iadctest.qwapi.com, REJECT
+HOST, iadmoo.apple.com, REJECT
+HOST, iadworkbench.apple.com, REJECT
+HOST, launch.apple.com, REJECT
+HOST, metrics.apple.com, REJECT
+HOST, qwapi.apple.com, REJECT
+HOST, securemetrics.apple.com, REJECT
+HOST, webproxy-advp.iad-apple.com, REJECT
+HOST, webproxy-advp.iad-apple.com.akadns.net, REJECT
+HOST-SUFFIX, advp.apple.com, REJECT
+HOST-SUFFIX, iadsdk.apple.com, REJECT
