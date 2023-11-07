@@ -1,8 +1,2 @@
 host,wxa.wxs.qq.com,reject
 host,xdiwbc.com,reject
-HOST, adservice.google.com, REJECT
-HOST, googleads.g.doubleclick-cn.net, REJECT
-HOST, googleads.g.doubleclick.net, REJECT
-HOST, pagead2.googlesyndication.com, REJECT
-HOST, pubads.g.doubleclick.net, REJECT
-HOST, www.googleadservices.com, REJECT
