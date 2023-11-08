@@ -1,5 +1,5 @@
-host,wxa.wxs.qq.com,reject
-host,xdiwbc.com,reject
+HOST, wxa.wxs.qq.com, REJECT
+HOST, xdiwbc.com, REJECT
 
 # Apple
 HOST, advertising.apple.com, REJECT
