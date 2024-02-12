@@ -2,6 +2,9 @@
 HOST, wxa.wxs.qq.com, REJECT
 HOST, xdiwbc.com, REJECT
 
+# Umeng
+HOST, ulogs.umeng.com, REJECT
+
 # Apple
 HOST, advertising.apple.com, REJECT
 HOST, api-adservices.apple.com, REJECT
