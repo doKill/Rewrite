@@ -2,8 +2,8 @@
 HOST, wxa.wxs.qq.com, REJECT
 HOST, xdiwbc.com, REJECT
 
-# Umeng
 HOST, ulogs.umeng.com, REJECT
+HOST-KEYWORD,pangolin-sdk-toutiao, REJECT
 
 # Apple
 HOST, advertising.apple.com, REJECT
