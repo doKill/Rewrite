@@ -1,9 +1,5 @@
 # Wechat
 HOST, wxa.wxs.qq.com, REJECT
-HOST, xdiwbc.com, REJECT
-
-HOST, ulogs.umeng.com, REJECT
-HOST-KEYWORD,pangolin-sdk-toutiao, REJECT
 
 # Apple
 HOST, advertising.apple.com, REJECT
