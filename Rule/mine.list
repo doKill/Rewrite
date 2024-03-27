@@ -19,3 +19,6 @@ HOST, webproxy-advp.iad-apple.com, REJECT
 HOST, webproxy-advp.iad-apple.com.akadns.net, REJECT
 HOST-SUFFIX, advp.apple.com, REJECT
 HOST-SUFFIX, iadsdk.apple.com, REJECT
+
+# QQ
+HOST-SUFFIX, mdt.qq.com, DIRECT
