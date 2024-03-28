@@ -4,6 +4,7 @@ HOST, wxa.wxs.qq.com, REJECT
 # Apple
 HOST, advertising.apple.com, REJECT
 HOST, apple.comscoreresearch.com, REJECT
+HOST, api-adservices.apple.com, REJECT
 HOST, banners.itunes.apple.com, REJECT
 HOST, iad.apple.com, REJECT
 HOST, iadcontent.apple.com, REJECT
