@@ -19,3 +19,7 @@ HOST, webproxy-advp.iad-apple.com, REJECT
 HOST, webproxy-advp.iad-apple.com.akadns.net, REJECT
 HOST-SUFFIX, advp.apple.com, REJECT
 HOST-SUFFIX, iadsdk.apple.com, REJECT
+
+# 输入法
+HOST-SUFFIX, shouji.sogou.com, REJECT
+HOST, sec.sginput.qq.com, REJECT
