@@ -1,2 +1,3 @@
-HOST-SUFFIX, kwcdn.com
-HOST-SUFFIX, temu.com
+HOST-SUFFIX, kwcdn.com, proxy
+HOST-SUFFIX, temu.com, proxy
+HOST, temudebug.com, proxy
