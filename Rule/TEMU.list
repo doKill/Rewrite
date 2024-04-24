@@ -1,0 +1,3 @@
+HOST, temudebug.com
+HOST-SUFFIX, kwcdn.com, REJECT
+HOST-SUFFIX, temu.com, REJECT
