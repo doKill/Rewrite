@@ -1,3 +1,2 @@
 HOST-SUFFIX, kwcdn.com, proxy
-HOST-SUFFIX, temu.com, proxy
-HOST, temudebug.com, proxy
+host-keyword,temu,proxy,force-remote-dns
