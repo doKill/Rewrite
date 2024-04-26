@@ -2,6 +2,7 @@
 HOST-SUFFIX, freenods.sbs
 
 # Apple
+HOST,gateway.icloud.com
 HOST-SUFFIX,aaplimg.com
 HOST-SUFFIX,apple.co
 HOST-SUFFIX,apple.com
