@@ -23,3 +23,8 @@ HOST-KEYWORD,apple.com.akadns.net
 HOST-KEYWORD,apple.com.edgekey.net
 HOST-KEYWORD,apple-support.akadns.net
 HOST-KEYWORD,icloud.com.akadns.net
+
+# APTV资源
+HOST-SUFFIX,goodiptv.club
+HOST-SUFFIX,112114.xyz
+HOST-SUFFIX,112114.eu.org
