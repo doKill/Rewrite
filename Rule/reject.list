@@ -264,4 +264,6 @@ host,mon20-misc-lf.fqnovel.com,reject
 
 host,feedback-c.zijieapi.com,reject
 host,mon.toutiaocloud.com,reject
+host,mon.toutiaocloud.net,reject
 host,rtlog5-applog-lf.fqnovel.com,reject
+host,rtlog3-applog-lf.fqnovel.com,reject
