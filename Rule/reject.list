@@ -261,3 +261,5 @@ host,mon17-misc-lf.fqnovel.com,reject
 host,mon18-misc-lf.fqnovel.com,reject
 host,mon19-misc-lf.fqnovel.com,reject
 host,mon20-misc-lf.fqnovel.com,reject
+
+host,feedback-c.zijieapi.com,reject
