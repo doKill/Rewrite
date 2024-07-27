@@ -29,3 +29,6 @@ HOST-KEYWORD,icloud.com.akadns.net
 HOST-SUFFIX,goodiptv.club
 HOST-SUFFIX,112114.xyz
 HOST-SUFFIX,112114.eu.org
+
+# wechat
+HOST,wechat.com
