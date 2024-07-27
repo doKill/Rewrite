@@ -31,4 +31,4 @@ HOST-SUFFIX,112114.xyz
 HOST-SUFFIX,112114.eu.org
 
 # wechat
-HOST,wechat.com
+HOST-SUFFIX,,wechat.com
