@@ -1,3 +1,5 @@
+host,tracker-01.qvb.qcloud.com
+
 # Wechat
 HOST, wxa.wxs.qq.com
 
@@ -23,6 +25,8 @@ HOST-SUFFIX, iadsdk.apple.com
 # douyu
 HOST, p2plog.douyucdn.cn
 
+# xiaohongshu
+host,spider-tracker.xiaohongshu.com
 
 # 输入法
 HOST-SUFFIX, shouji.sogou.com
