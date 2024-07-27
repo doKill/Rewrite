@@ -24,7 +24,6 @@ HOST-SUFFIX, iadsdk.apple.com
 
 # douyu
 HOST, p2plog.douyucdn.cn
-HOST, playclient.douyucdn.cn
 HOST, dotbeats.douyucdn.cn
 HOST, venus.douyucdn.cn
 
