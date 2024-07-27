@@ -20,6 +20,9 @@ HOST, webproxy-advp.iad-apple.com.akadns.net
 HOST-SUFFIX, advp.apple.com
 HOST-SUFFIX, iadsdk.apple.com
 
+# douyu
+HOST, p2plog.douyucdn.cn
+
 
 # 输入法
 HOST-SUFFIX, shouji.sogou.com
