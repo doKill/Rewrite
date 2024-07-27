@@ -242,6 +242,7 @@ host,tnc9-alisc6.zijieapi.com,reject
 host,tnc9-alisc7.zijieapi.com,reject
 host,tnc9-alisc8.zijieapi.com,reject
 host,tnc9-alisc9.zijieapi.com,reject
+host,tnc3-aliec2.zijieapi.com,reject
 
 host,mon0-misc-lf.fqnovel.com,reject
 host,mon1-misc-lf.fqnovel.com,reject
