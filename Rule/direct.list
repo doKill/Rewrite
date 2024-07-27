@@ -32,3 +32,6 @@ HOST-SUFFIX,112114.eu.org
 
 # wechat
 HOST-SUFFIX,wechat.com
+
+# douoyu
+HOST-SUFFIX,douyucdn.cn
