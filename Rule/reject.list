@@ -26,7 +26,17 @@ HOST-SUFFIX, iadsdk.apple.com
 HOST, p2plog.douyucdn.cn
 
 # xiaohongshu
-host,spider-tracker.xiaohongshu.com
+host, spider-tracker.xiaohongshu.com
+host, ads-vp1.xhscdn.com
+host, ads-vp2.xhscdn.com
+host, ads-vp3.xhscdn.com
+host, ads-vp4.xhscdn.com
+host, ads-vp5.xhscdn.com
+host, ads-vp6.xhscdn.com
+host, ads-vp7.xhscdn.com
+host, ads-vp8.xhscdn.com
+host, ads-vp9.xhscdn.com
+host, ads-vp10.xhscdn.com
 
 # 输入法
 HOST-SUFFIX, shouji.sogou.com
