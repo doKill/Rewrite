@@ -34,6 +34,4 @@ objk = {
 
 body = JSON.stringify(objk);
 
-$done({
-      body
-});
+$done({body});
