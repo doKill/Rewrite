@@ -1,6 +1,6 @@
 [[rewrite_local]
 
-^https:\/\/api\.meiyan\.com\/vip\/user_info\.json url script-response-body https://raw.githubusercontent.com/doKill/Rewrite/main/UnlockVip/MeiyanXJ.js
+^https:\/\/api\.meiyan\.com\/vip\/user_info\.json url script-response-body https://raw.githubusercontent.com/doKill/Rewrite/master/UnlockVip/MeiyanXJ.js
 
 [mitm] 
 hostname = api.meiyan.com
