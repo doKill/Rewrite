@@ -24,6 +24,4 @@ if (url.indexOf(vip) != -1) {
 }
 
 
-$done({
-    body
-});
+$done({body});
