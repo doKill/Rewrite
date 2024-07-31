@@ -297,8 +297,14 @@ host,mon.toutiaocloud.net,reject
 host,rtlog5-applog-lf.fqnovel.com,reject
 host,rtlog3-applog-lf.fqnovel.com,reject
 
+# 1688
+HOST, impaas-for-client.cn-shanghai.log.aliyuncs.com
+HOST, takla.cn-shanghai.log.aliyuncs.com
+HOST, cbu-offer.cn-shanghai.log.aliyuncs.com
+HOST, ali-ctf.cn-hangzhou.dualstack.log.aliyuncs.com
+HOST, wireless-app-log.cn-hangzhou.log.aliyuncs.com
 
-#其他
+# 其他
 HOST, tower.ubixioe.com
 HOST, sdk-data.ubixioe.com
 HOST, effect.snssdk.com
