@@ -25,6 +25,10 @@ HOST, mercury-gateway.ixiaochuan.cn
 HOST, polaris-sinfonlinec.zijieapi.com
 HOST, adtracker.adfunlink.com
 
+# JD
+HOST, tracklog.jd.com
+HOST, mllog.jd.com
+
 # douyu
 HOST, p2plog.douyucdn.cn
 HOST, dotbeats.douyucdn.cn
