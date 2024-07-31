@@ -1,4 +1,4 @@
-host,tracker-01.qvb.qcloud.com
+
 
 # Wechat
 HOST, wxa.wxs.qq.com
@@ -21,6 +21,11 @@ HOST, webproxy-advp.iad-apple.com
 HOST, webproxy-advp.iad-apple.com.akadns.net
 HOST-SUFFIX, advp.apple.com
 HOST-SUFFIX, iadsdk.apple.com
+
+# xunlei
+HOST, mercury-gateway.ixiaochuan.cn
+HOST, polaris-sinfonlinec.zijieapi.com
+HOST, adtracker.adfunlink.com
 
 # douyu
 HOST, p2plog.douyucdn.cn
@@ -291,3 +296,13 @@ host,mon.toutiaocloud.com,reject
 host,mon.toutiaocloud.net,reject
 host,rtlog5-applog-lf.fqnovel.com,reject
 host,rtlog3-applog-lf.fqnovel.com,reject
+
+
+#其他
+HOST, tower.ubixioe.com
+HOST, sdk-data.ubixioe.com
+HOST, effect.snssdk.com
+HOST, pitaya.bytedance.com
+HOST, adengt.hpplay.cn
+HOST, hubciddata.sandai.net
+HOST, tracker-01.qvb.qcloud.com
