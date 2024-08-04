@@ -1,3 +1,6 @@
+# dnstest
 HOST-SUFFIX,dnsleaktest.com
 HOST-KEYWORD,browserleaks
-HOST,whatshub.top
+
+#
+HOST-SUFFIX,freenods.sbs
