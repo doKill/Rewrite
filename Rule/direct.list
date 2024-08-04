@@ -29,3 +29,6 @@ HOST-KEYWORD,icloud.com.akadns.net
 HOST-SUFFIX,goodiptv.club
 HOST-SUFFIX,112114.xyz
 HOST-SUFFIX,112114.eu.org
+
+# 这里是为了aptv的v6源
+HOST-SUFFIX,douyucdn.cn
