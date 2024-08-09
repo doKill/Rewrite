@@ -1,6 +1,12 @@
 # Wechat
 HOST, wxa.wxs.qq.com
 
+# mymail邮箱
+HOST, ip4.tracker-api.vk-analytics.ru
+HOST, api-hprof.odkl.ru
+HOST, ts.tracker-api.vk-analytics.ru
+HOST, tracker-api.vk-analytics.ru
+
 # Apple
 HOST, advertising.apple.com
 HOST, apple.comscoreresearch.com
