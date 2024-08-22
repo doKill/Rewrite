@@ -1,6 +1,11 @@
 # Wechat
 HOST, wxa.wxs.qq.com
 
+# iOS屏蔽更新
+HOST, mesu.apple.com
+HOST, gdmf.apple.com
+HOST, updates-http.cdn-apple.com
+
 # mymail邮箱
 HOST, ip4.tracker-api.vk-analytics.ru
 HOST, api-hprof.odkl.ru
