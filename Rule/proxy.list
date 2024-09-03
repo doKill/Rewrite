@@ -1,3 +1,6 @@
 # dnstest
 HOST-SUFFIX,dnsleaktest.com
 HOST-KEYWORD,browserleaks
+
+# ETSY
+HOST-SUFFIX,etsystatic.com
