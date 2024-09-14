@@ -13,6 +13,9 @@ HOST, api-hprof.odkl.ru
 HOST, ts.tracker-api.vk-analytics.ru
 HOST, tracker-api.vk-analytics.ru
 
+# Taobao
+HOST, wcp.taobao.com
+
 # Apple
 HOST, advertising.apple.com
 HOST, apple.comscoreresearch.com
