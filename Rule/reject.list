@@ -241,11 +241,7 @@ HOST, tnc0-bjlgy.zijieapi.com
 HOST, tnc3-bjlgy.zijieapi.com
 
 # 1688
-HOST, impaas-for-client.cn-shanghai.log.aliyuncs.com
-HOST, takla.cn-shanghai.log.aliyuncs.com
-HOST, cbu-offer.cn-shanghai.log.aliyuncs.com
-HOST, ali-ctf.cn-hangzhou.dualstack.log.aliyuncs.com
-HOST, wireless-app-log.cn-hangzhou.log.aliyuncs.com
+HOST-SUFFIX, log.aliyuncs.com
 
 # 其他
 HOST, tower.ubixioe.com
