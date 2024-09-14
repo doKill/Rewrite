@@ -71,31 +71,13 @@ HOST-SUFFIX, shouji.sogou.com
 HOST, sec.sginput.qq.com
 
 # fanqie
-HOST, ads0-normal-lf.zijieapi.com
-HOST, ads1-normal-lf.zijieapi.com
-HOST, ads2-normal-lf.zijieapi.com
-HOST, ads3-normal-lf.zijieapi.com
-HOST, ads4-normal-lf.zijieapi.com
-HOST, ads5-normal-lf.zijieapi.com
-HOST, ads6-normal-lf.zijieapi.com
-HOST, ads7-normal-lf.zijieapi.com
-HOST, ads8-normal-lf.zijieapi.com
-HOST, ads9-normal-lf.zijieapi.com
-HOST, ads10-normal-lf.zijieapi.com
-HOST, ads11-normal-lf.zijieapi.com
-HOST, ads12-normal-lf.zijieapi.com
-HOST, ads13-normal-lf.zijieapi.com
-HOST, ads14-normal-lf.zijieapi.com
-HOST, ads15-normal-lf.zijieapi.com
-HOST, ads16-normal-lf.zijieapi.com
-HOST, ads17-normal-lf.zijieapi.com
-HOST, ads18-normal-lf.zijieapi.com
-HOST, ads19-normal-lf.zijieapi.com
-HOST, ads20-normal-lf.zijieapi.com
-
 HOST-SUFFIX, snssdk.com
 HOST-KEYWORD, saveu
 HOST-KEYWORD, frontier100
+HOST-KEYWORD, -applog-lf
+HOST-KEYWORD, -ad-sign
+HOST-KEYWORD, -misc-lf
+HOST-KEYWORD, -normal-lf
 HOST, praisewindow-sinfonlinec.ugsdk.cn
 HOST, ma.zijieapi.com
 HOST, pitaya.bytedance.com
@@ -103,7 +85,9 @@ HOST, timon.zijieapi.com
 HOST, lf-reward-video.bytecdn.com
 HOST, lf-normal-gr-sourcecdn.bytegecko.com
 HOST, lf-normal-gr-sourcecdn.bytegecko.com
-HOST, v26-novelapp.fqnovelvod.com
+HOST, feedback-c.zijieapi.com
+HOST, mon.toutiaocloud.com
+HOST, mon.toutiaocloud.net
 
 HOST, v0-novelapp.fqnovelvod.com
 HOST, v1-novelapp.fqnovelvod.com
@@ -126,28 +110,7 @@ HOST, v17-novelapp.fqnovelvod.com
 HOST, v18-novelapp.fqnovelvod.com
 HOST, v19-novelapp.fqnovelvod.com
 HOST, v20-novelapp.fqnovelvod.com
-
-HOST, p0-ad-sign.byteimg.com
-HOST, p1-ad-sign.byteimg.com
-HOST, p2-ad-sign.byteimg.com
-HOST, p3-ad-sign.byteimg.com
-HOST, p4-ad-sign.byteimg.com
-HOST, p5-ad-sign.byteimg.com
-HOST, p6-ad-sign.byteimg.com
-HOST, p7-ad-sign.byteimg.com
-HOST, p8-ad-sign.byteimg.com
-HOST, p9-ad-sign.byteimg.com
-HOST, p10-ad-sign.byteimg.com
-HOST, p11-ad-sign.byteimg.com
-HOST, p12-ad-sign.byteimg.com
-HOST, p13-ad-sign.byteimg.com
-HOST, p14-ad-sign.byteimg.com
-HOST, p15-ad-sign.byteimg.com
-HOST, p16-ad-sign.byteimg.com
-HOST, p17-ad-sign.byteimg.com
-HOST, p18-ad-sign.byteimg.com
-HOST, p19-ad-sign.byteimg.com
-HOST, p20-ad-sign.byteimg.com
+HOST, v26-novelapp.fqnovelvod.com
 
 HOST, v0-default.365yg.com
 HOST, v1-default.365yg.com
@@ -170,28 +133,6 @@ HOST, v17-default.365yg.com
 HOST, v18-default.365yg.com
 HOST, v19-default.365yg.com
 HOST, v20-default.365yg.com
-
-HOST, log0-applog-lf.fqnovel.com
-HOST, log1-applog-lf.fqnovel.com
-HOST, log2-applog-lf.fqnovel.com
-HOST, log3-applog-lf.fqnovel.com
-HOST, log4-applog-lf.fqnovel.com
-HOST, log5-applog-lf.fqnovel.com
-HOST, log6-applog-lf.fqnovel.com
-HOST, log7-applog-lf.fqnovel.com
-HOST, log8-applog-lf.fqnovel.com
-HOST, log9-applog-lf.fqnovel.com
-HOST, log10-applog-lf.fqnovel.com
-HOST, log11-applog-lf.fqnovel.com
-HOST, log12-applog-lf.fqnovel.com
-HOST, log13-applog-lf.fqnovel.com
-HOST, log14-applog-lf.fqnovel.com
-HOST, log15-applog-lf.fqnovel.com
-HOST, log16-applog-lf.fqnovel.com
-HOST, log17-applog-lf.fqnovel.com
-HOST, log18-applog-lf.fqnovel.com
-HOST, log19-applog-lf.fqnovel.com
-HOST, log20-applog-lf.fqnovel.com
 
 HOST, tnc0-alisc0.zijieapi.com
 HOST, tnc0-alisc1.zijieapi.com
@@ -297,34 +238,6 @@ HOST, tnc3-aliec2.zijieapi.com
 
 HOST, tnc0-bjlgy.zijieapi.com
 HOST, tnc3-bjlgy.zijieapi.com
-
-HOST, mon0-misc-lf.fqnovel.com
-HOST, mon1-misc-lf.fqnovel.com
-HOST, mon2-misc-lf.fqnovel.com
-HOST, mon3-misc-lf.fqnovel.com
-HOST, mon4-misc-lf.fqnovel.com
-HOST, mon5-misc-lf.fqnovel.com
-HOST, mon6-misc-lf.fqnovel.com
-HOST, mon7-misc-lf.fqnovel.com
-HOST, mon8-misc-lf.fqnovel.com
-HOST, mon9-misc-lf.fqnovel.com
-HOST, mon10-misc-lf.fqnovel.com
-HOST, mon11-misc-lf.fqnovel.com
-HOST, mon12-misc-lf.fqnovel.com
-HOST, mon13-misc-lf.fqnovel.com
-HOST, mon14-misc-lf.fqnovel.com
-HOST, mon15-misc-lf.fqnovel.com
-HOST, mon16-misc-lf.fqnovel.com
-HOST, mon17-misc-lf.fqnovel.com
-HOST, mon18-misc-lf.fqnovel.com
-HOST, mon19-misc-lf.fqnovel.com
-HOST, mon20-misc-lf.fqnovel.com
-
-HOST, feedback-c.zijieapi.com
-HOST, mon.toutiaocloud.com
-HOST, mon.toutiaocloud.net
-HOST, rtlog5-applog-lf.fqnovel.com
-HOST, rtlog3-applog-lf.fqnovel.com
 
 # 1688
 HOST, impaas-for-client.cn-shanghai.log.aliyuncs.com
