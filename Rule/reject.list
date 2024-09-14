@@ -10,6 +10,7 @@ HOST, tracker-api.vk-analytics.ru
 
 # Taobao
 HOST, wcp.taobao.com
+HOST-KEYWORD, -adashx
 
 # Apple
 # iOS屏蔽更新
