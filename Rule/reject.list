@@ -95,6 +95,8 @@ HOST, effect.snssdk.com
 HOST, pitaya.bytedance.com
 HOST, vas.snssdk.com
 HOST, vas-lf-x.snssdk.com
+HOST, if-reward-video.bytecdn.com
+HOST, if-normal-gr-sourcecdn.bytegecko.com
 
 HOST, v0-novelapp.fqnovelvod.com
 HOST, v1-novelapp.fqnovelvod.com
