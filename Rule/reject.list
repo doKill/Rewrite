@@ -90,6 +90,7 @@ HOST, ads18-normal-lf.zijieapi.com
 HOST, ads19-normal-lf.zijieapi.com
 HOST, ads20-normal-lf.zijieapi.com
 
+HOST, ichannel.snssdk.com
 HOST, i.snssdk.com
 HOST, is.snssdk.com
 HOST, tp-pay.snssdk.com
@@ -99,6 +100,8 @@ HOST, vas.snssdk.com
 HOST, vas-lf-x.snssdk.com
 HOST, if-reward-video.bytecdn.com
 HOST, if-normal-gr-sourcecdn.bytegecko.com
+HOST, lf-normal-gr-sourcecdn.bytegecko.com
+HOST, v26-novelapp.fqnovelvod.com
 
 HOST, v0-novelapp.fqnovelvod.com
 HOST, v1-novelapp.fqnovelvod.com
