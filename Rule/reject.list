@@ -1,5 +1,6 @@
 # Wechat
 HOST, wxa.wxs.qq.com
+HOST, sgreport.wechat.com
 
 # iOS屏蔽更新
 HOST, mesu.apple.com
@@ -91,6 +92,7 @@ HOST, ads20-normal-lf.zijieapi.com
 
 HOST, i.snssdk.com
 HOST, is.snssdk.com
+HOST, tp-pay.snssdk.com
 HOST, effect.snssdk.com
 HOST, pitaya.bytedance.com
 HOST, vas.snssdk.com
@@ -335,3 +337,4 @@ HOST, adengt.hpplay.cn
 HOST, hubciddata.sandai.net
 HOST, tracker-01.qvb.qcloud.com
 HOST-KEYWORD,firebaselogging
+HOST-KEYWORD,abtest
