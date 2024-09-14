@@ -79,12 +79,12 @@ HOST-KEYWORD, -applog-lf
 HOST-KEYWORD, -ad-sign
 HOST-KEYWORD, -misc-lf
 HOST-KEYWORD, -normal-lf
+HOST-KEYWORD, lf-normal-
 HOST, dig.bdurl.net
+HOST, dig.zjurl.cn
 HOST, praisewindow-sinfonlinec.ugsdk.cn
 HOST, pitaya.bytedance.com
 HOST, lf-reward-video.bytecdn.com
-HOST, lf-normal-gr-sourcecdn.bytegecko.com
-HOST, lf-normal-gr-sourcecdn.bytegecko.com
 HOST, mon.toutiaocloud.com
 HOST, mon.toutiaocloud.net
 
