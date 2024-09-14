@@ -2,11 +2,6 @@
 HOST, wxa.wxs.qq.com
 HOST, sgreport.wechat.com
 
-# iOS屏蔽更新
-HOST, mesu.apple.com
-HOST, gdmf.apple.com
-HOST, updates-http.cdn-apple.com
-
 # mymail邮箱
 HOST, ip4.tracker-api.vk-analytics.ru
 HOST, api-hprof.odkl.ru
@@ -17,6 +12,11 @@ HOST, tracker-api.vk-analytics.ru
 HOST, wcp.taobao.com
 
 # Apple
+# iOS屏蔽更新
+HOST, mesu.apple.com
+HOST, gdmf.apple.com
+HOST, updates-http.cdn-apple.com
+
 HOST, advertising.apple.com
 HOST, apple.comscoreresearch.com
 HOST, api-adservices.apple.com
@@ -34,6 +34,7 @@ HOST, webproxy-advp.iad-apple.com
 HOST, webproxy-advp.iad-apple.com.akadns.net
 HOST-SUFFIX, advp.apple.com
 HOST-SUFFIX, iadsdk.apple.com
+
 
 # xunlei
 HOST, mercury-gateway.ixiaochuan.cn
