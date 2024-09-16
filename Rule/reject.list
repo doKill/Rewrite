@@ -156,3 +156,4 @@ HOST, hubciddata.sandai.net
 HOST, tracker-01.qvb.qcloud.com
 HOST-KEYWORD,firebaselogging
 HOST-KEYWORD,abtest
+HOST-SUFFIX, awstrack.me
