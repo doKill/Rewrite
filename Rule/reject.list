@@ -63,6 +63,7 @@ HOST-SUFFIX, shouji.sogou.com
 HOST, sec.sginput.qq.com
 
 # fanqie
+HOST-SUFFIX, ecombdimg.com
 HOST-SUFFIX, snssdk.com
 HOST-SUFFIX, zijieapi.com
 HOST-KEYWORD, saveu
