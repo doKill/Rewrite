@@ -55,17 +55,8 @@ host, p2perrorlog.douyucdn.cn
 host, streamdot.douyucdn.cn
 
 # xiaohongshu
-host, spider-tracker.xiaohongshu.com
-host, ads-vp1.xhscdn.com
-host, ads-vp2.xhscdn.com
-host, ads-vp3.xhscdn.com
-host, ads-vp4.xhscdn.com
-host, ads-vp5.xhscdn.com
-host, ads-vp6.xhscdn.com
-host, ads-vp7.xhscdn.com
-host, ads-vp8.xhscdn.com
-host, ads-vp9.xhscdn.com
-host, ads-vp10.xhscdn.com
+HOST, spider-tracker.xiaohongshu.com
+HOST-WILDCARD, ads-vp*.xhscdn.com
 
 # 输入法
 HOST-SUFFIX, shouji.sogou.com
@@ -88,65 +79,14 @@ HOST, pitaya.bytedance.com
 HOST, lf-reward-video.bytecdn.com
 HOST, mon.toutiaocloud.com
 HOST, mon.toutiaocloud.net
-
-HOST, v0-novelapp.fqnovelvod.com
-HOST, v1-novelapp.fqnovelvod.com
-HOST, v2-novelapp.fqnovelvod.com
-HOST, v3-novelapp.fqnovelvod.com
-HOST, v4-novelapp.fqnovelvod.com
-HOST, v5-novelapp.fqnovelvod.com
-HOST, v6-novelapp.fqnovelvod.com
-HOST, v7-novelapp.fqnovelvod.com
-HOST, v8-novelapp.fqnovelvod.com
-HOST, v9-novelapp.fqnovelvod.com
-HOST, v10-novelapp.fqnovelvod.com
-HOST, v11-novelapp.fqnovelvod.com
-HOST, v12-novelapp.fqnovelvod.com
-HOST, v13-novelapp.fqnovelvod.com
-HOST, v14-novelapp.fqnovelvod.com
-HOST, v15-novelapp.fqnovelvod.com
-HOST, v16-novelapp.fqnovelvod.com
-HOST, v17-novelapp.fqnovelvod.com
-HOST, v18-novelapp.fqnovelvod.com
-HOST, v19-novelapp.fqnovelvod.com
-HOST, v20-novelapp.fqnovelvod.com
-HOST, v26-novelapp.fqnovelvod.com
-
-HOST, v0-default.365yg.com
-HOST, v1-default.365yg.com
-HOST, v2-default.365yg.com
-HOST, v3-default.365yg.com
-HOST, v4-default.365yg.com
-HOST, v5-default.365yg.com
-HOST, v6-default.365yg.com
-HOST, v7-default.365yg.com
-HOST, v8-default.365yg.com
-HOST, v9-default.365yg.com
-HOST, v10-default.365yg.com
-HOST, v11-default.365yg.com
-HOST, v12-default.365yg.com
-HOST, v13-default.365yg.com
-HOST, v14-default.365yg.com
-HOST, v15-default.365yg.com
-HOST, v16-default.365yg.com
-HOST, v17-default.365yg.com
-HOST, v18-default.365yg.com
-HOST, v19-default.365yg.com
-HOST, v20-default.365yg.com
-
-HOST-KEYWORD, tnc0-alisc
-HOST-KEYWORD, tnc1-alisc
-HOST-KEYWORD, tnc2-alisc
-HOST-KEYWORD, tnc3-alisc
-HOST-KEYWORD, tnc4-alisc
-HOST-KEYWORD, tnc5-alisc
-HOST-KEYWORD, tnc6-alisc
-HOST-KEYWORD, tnc7-alisc
-HOST-KEYWORD, tnc8-alisc
-HOST-KEYWORD, tnc9-alisc
+HOST-WILDCARD, v*-default.365yg.com
+HOST-WILDCARD, v*-novelapp.fqnovelvod.com
 
 # 1688
 HOST-SUFFIX, log.aliyuncs.com
+
+# sublime
+HOST-SUFFIX, sublimetext.com
 
 # 其他
 HOST, tower.ubixioe.com
