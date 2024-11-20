@@ -12,6 +12,7 @@ HOST, tracker-api.vk-analytics.ru
 HOST, wcp.taobao.com
 HOST-KEYWORD, -adashx
 
+
 # Apple
 # iOS屏蔽更新
 HOST, mesu.apple.com
@@ -40,6 +41,7 @@ HOST-SUFFIX, iadsdk.apple.com
 # xunlei
 HOST, mercury-gateway.ixiaochuan.cn
 HOST, adtracker.adfunlink.com
+HOST-WILDCARD, analys*.xunlei.com
 
 # JD
 HOST, tracklog.jd.com
