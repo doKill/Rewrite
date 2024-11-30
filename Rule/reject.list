@@ -59,6 +59,8 @@ host, streamdot.douyucdn.cn
 # xiaohongshu
 HOST, spider-tracker.xiaohongshu.com
 HOST-WILDCARD, ads-vp*.xhscdn.com
+HOST-WILDCARD, *log*.umeng.com
+
 
 # 输入法
 HOST-SUFFIX, shouji.sogou.com
