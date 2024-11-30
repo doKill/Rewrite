@@ -60,6 +60,7 @@ host, streamdot.douyucdn.cn
 HOST, spider-tracker.xiaohongshu.com
 HOST-WILDCARD, ads-vp*.xhscdn.com
 HOST-WILDCARD, *log*.umeng.com
+HOST-WILDCARD, *log*.umengcloud.com
 
 
 # 输入法
