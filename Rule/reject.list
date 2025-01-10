@@ -79,7 +79,7 @@ HOST-KEYWORD, -misc-lf
 HOST-KEYWORD, -normal-lf
 HOST-KEYWORD, lf-normal-
 HOST, dig.bdurl.net
-HOST, dig.zjurl.cn
+# HOST, dig.zjurl.cn
 HOST, praisewindow-sinfonlinec.ugsdk.cn
 HOST, pitaya.bytedance.com
 HOST, lf-reward-video.bytecdn.com
