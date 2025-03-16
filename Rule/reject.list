@@ -32,6 +32,9 @@ HOST, webproxy-advp.iad-apple.com.akadns.net
 HOST-SUFFIX, advp.apple.com
 HOST-SUFFIX, iadsdk.apple.com
 
+#安居客
+HOST,collectlog.58.com
+HOST,im58log.58.com
 
 # xunlei
 HOST, mercury-gateway.ixiaochuan.cn
