@@ -92,6 +92,7 @@ HOST-SUFFIX, log.aliyuncs.com
 HOST-SUFFIX, sublimetext.com
 
 # 其他
+HOST, log.mmstat.com
 HOST, tower.ubixioe.com
 HOST, sdk-data.ubixioe.com
 HOST, adengt.hpplay.cn
