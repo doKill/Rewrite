@@ -6,6 +6,14 @@
 
 #!icon=https://raw.githubusercontent.com/Orz-3/mini/master/Color/douyu.png
 
+[Rule]
+DOMAIN, p2plog.douyucdn.cn, REJECT
+DOMAIN, dotbeats.douyucdn.cn, REJECT
+DOMAIN, venus.douyucdn.cn, REJECT
+DOMAIN, gift.douyucdn.cn, REJECT
+DOMAIN, tower.douyucdn.cn, REJECT
+DOMAIN, p2perrorlog.douyucdn.cn, REJECT
+DOMAIN, streamdot.douyucdn.cn, REJECT
 
 
 [URL Rewrite]
