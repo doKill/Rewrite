@@ -1,0 +1,19 @@
+#!name=斗鱼
+
+#!desc=斗鱼去广告
+
+#!author=dokill
+
+#!icon=https://raw.githubusercontent.com/Orz-3/mini/master/Color/douyu.png
+
+
+
+[URL Rewrite]
+^https?:\/\/mconf\.douyucdn\.cn\/resource _ reject
+^https?:\/\/apiv\d\.douyucdn\.cn\/japi\/(oms|interactnc|interact) _ reject
+^https?:\/\/apiv\d\.douyucdn\.cn\/japi\/ecl\/api\/query\/user\/goods _ reject
+^https?:\/\/rtbapi\.douyucdn.cn\/japi\/(dyadx|sign) _ reject
+
+
+[MITM]
+hostname = *.douyucdn.cn
