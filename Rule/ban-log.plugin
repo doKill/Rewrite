@@ -1,0 +1,72 @@
+#!name=APP日志
+ 
+#!desc=屏蔽APP内日志
+ 
+#!author=dokill
+
+#!icon=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Adblock.png
+
+
+
+[Rule]
+#! Apple
+DOMAIN, advertising.apple.com, REJECT
+DOMAIN, apple.comscoreresearch.com, REJECT
+DOMAIN, api-adservices.apple.com, REJECT
+DOMAIN, banners.itunes.apple.com, REJECT
+DOMAIN, iad.apple.com, REJECT
+DOMAIN, iadcontent.apple.com, REJECT
+DOMAIN, iadctest.qwapi.com, REJECT
+DOMAIN, iadmoo.apple.com, REJECT
+DOMAIN, iadworkbench.apple.com, REJECT
+DOMAIN, launch.apple.com, REJECT
+DOMAIN, metrics.apple.com, REJECT
+DOMAIN, qwapi.apple.com, REJECT
+DOMAIN, securemetrics.apple.com, REJECT
+DOMAIN, webproxy-advp.iad-apple.com, REJECT
+DOMAIN, webproxy-advp.iad-apple.com.akadns.net, REJECT
+DOMAIN-SUFFIX, advp.apple.com, REJECT
+DOMAIN-SUFFIX, iadsdk.apple.com, REJECT
+
+#!安居客
+DOMAIN, collectlog.58.com, REJECT
+DOMAIN, im58log.58.com, REJECT
+
+#! xunlei
+DOMAIN, mercury-gateway.ixiaochuan.cn, REJECT
+DOMAIN, adtracker.adfunlink.com, REJECT
+
+#! JD
+DOMAIN, tracklog.jd.com, REJECT
+DOMAIN, mllog.jd.com, REJECT
+
+#! 斗鱼
+DOMAIN, p2plog.douyucdn.cn, REJECT
+DOMAIN, p2perrorlog.douyucdn.cn, REJECT
+DOMAIN, p2perrorlog.douyucdn.cn, REJECT
+
+#! xiaohongshu
+HOST, spider-tracker.xiaohongshu.com, REJECT
+URL-REGEX,ads-vp.*\.xhscdn\.com, REJECT
+URL-REGEX,.*log.*\.umeng\.com, REJECT
+URL-REGEX,.*log.*\.umengcloud\.com, REJECT
+
+#! 番茄
+DOMAIN-KEYWORD, -applog-lf, REJECT
+DOMAIN-KEYWORD, -ad-sign, REJECT
+
+#! 字节
+DOMAIN, mon.toutiaocloud.com, REJECT
+DOMAIN, mon.toutiaocloud.net, REJECT
+
+# 输入法
+DOMAIN-SUFFIX, shouji.sogou.com, REJECT
+DOMAIN, sec.sginput.qq.com, REJECT
+
+#! Others
+DOMAIN, adengt.hpplay.cn, REJECT
+DOMAIN-KEYWORD, firebaselogging, REJECT
+DOMAIN-KEYWORD, abtest, REJECT
+DOMAIN-SUFFIX, log.aliyuncs.com, REJECT
+DOMAIN-SUFFIX, awstrack.me, REJECT
+DOMAIN-SUFFIX, mushroomtrack.com, REJECT
