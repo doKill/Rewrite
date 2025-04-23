@@ -7,70 +7,72 @@
 #!icon=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Adblock.png
 
 
+[URL Rewrite]
+# Apple
+URL-REGEX,^https?://advertising\.apple\.com$ _ REJECT
+URL-REGEX,^https?://apple\.comscoreresearch\.com$ _ REJECT
+URL-REGEX,^https?://api-adservices\.apple\.com$ _ REJECT
+URL-REGEX,^https?://banners\.itunes\.apple\.com$ _ REJECT
+URL-REGEX,^https?://iad\.apple\.com$ _ REJECT
+URL-REGEX,^https?://iadcontent\.apple\.com$ _ REJECT
+URL-REGEX,^https?://iadctest\.qwapi\.com$ _ REJECT
+URL-REGEX,^https?://iadmoo\.apple\.com$ _ REJECT
+URL-REGEX,^https?://iadworkbench\.apple\.com$ _ REJECT
+URL-REGEX,^https?://launch\.apple\.com$ _ REJECT
+URL-REGEX,^https?://metrics\.apple\.com$ _ REJECT
+URL-REGEX,^https?://qwapi\.com$ _ REJECT
+URL-REGEX,^https?://securemetrics\.apple\.com$ _ REJECT
+URL-REGEX,^https?://webproxy-advp\.iad-apple\.com$ _ REJECT
+URL-REGEX,^https?://webproxy-advp\.iad-apple\.com\.akadns\.net$ _ REJECT
+URL-REGEX,^https?://.*\.advp\.apple\.com$ _ REJECT
+URL-REGEX,^https?://.*\.iadsdk\.apple\.com$ _ REJECT
 
-[Rule]
-#! Apple
-DOMAIN, advertising.apple.com, REJECT
-DOMAIN, apple.comscoreresearch.com, REJECT
-DOMAIN, api-adservices.apple.com, REJECT
-DOMAIN, banners.itunes.apple.com, REJECT
-DOMAIN, iad.apple.com, REJECT
-DOMAIN, iadcontent.apple.com, REJECT
-DOMAIN, iadctest.qwapi.com, REJECT
-DOMAIN, iadmoo.apple.com, REJECT
-DOMAIN, iadworkbench.apple.com, REJECT
-DOMAIN, launch.apple.com, REJECT
-DOMAIN, metrics.apple.com, REJECT
-DOMAIN, qwapi.apple.com, REJECT
-DOMAIN, securemetrics.apple.com, REJECT
-DOMAIN, webproxy-advp.iad-apple.com, REJECT
-DOMAIN, webproxy-advp.iad-apple.com.akadns.net, REJECT
-DOMAIN-SUFFIX, advp.apple.com, REJECT
-DOMAIN-SUFFIX, iadsdk.apple.com, REJECT
+#安居客
+URL-REGEX,^https?://collectlog\.58\.com$ _ REJECT
+URL-REGEX,^https?://im58log\.58\.com$ _ REJECT
 
-#!安居客
-DOMAIN, collectlog.58.com, REJECT
-DOMAIN, im58log.58.com, REJECT
+# xunlei
+URL-REGEX,^https?://mercury-gateway\.ixiaochuan\.cn$ _ REJECT
+URL-REGEX,^https?://adtracker\.adfunlink\.com$ _ REJECT
 
-#! xunlei
-DOMAIN, mercury-gateway.ixiaochuan.cn, REJECT
-DOMAIN, adtracker.adfunlink.com, REJECT
+# JD
+URL-REGEX,^https?://tracklog\.jd\.com$ _ REJECT
+URL-REGEX,^https?://mllog\.jd\.com$ _ REJECT
 
-#! JD
-DOMAIN, tracklog.jd.com, REJECT
-DOMAIN, mllog.jd.com, REJECT
+# 斗鱼
+URL-REGEX,^https?://p2plog\.douyucdn\.cn$ _ REJECT
+URL-REGEX,^https?://p2perrorlog\.douyucdn\.cn$ _ REJECT
+URL-REGEX,^https?://p2perrorlog\.douyucdn\.cn$ _ REJECT  # 重复规则需检查原始数据
 
-#! 斗鱼
-DOMAIN, p2plog.douyucdn.cn, REJECT
-DOMAIN, p2perrorlog.douyucdn.cn, REJECT
-DOMAIN, p2perrorlog.douyucdn.cn, REJECT
+# xiaohongshu
+URL-REGEX,^https?://spider-tracker\.xiaohongshu\.com$ _ REJECT
+URL-REGEX,^https?://ads-vp.*\.xhscdn\.com$ _ REJECT
+URL-REGEX,^https?://.*log.*\.umeng\.com$ _ REJECT
+URL-REGEX,^https?://.*log.*\.umengcloud\.com$ _ REJECT
 
-#! xiaohongshu
-HOST, spider-tracker.xiaohongshu.com, REJECT
-URL-REGEX,ads-vp.*\.xhscdn\.com, REJECT
-URL-REGEX,.*log.*\.umeng\.com, REJECT
-URL-REGEX,.*log.*\.umengcloud\.com, REJECT
+# 番茄
+URL-REGEX,^https?://.*-applog-lf.*$ _ REJECT
+URL-REGEX,^https?://.*-ad-sign.*$ _ REJECT
 
-#! 番茄
-DOMAIN-KEYWORD, -applog-lf, REJECT
-DOMAIN-KEYWORD, -ad-sign, REJECT
-
-#! 字节
-DOMAIN, mon.toutiaocloud.com, REJECT
-DOMAIN, mon.toutiaocloud.net, REJECT
+# 字节
+URL-REGEX,^https?://mon\.toutiaocloud\.com$ _ REJECT
+URL-REGEX,^https?://mon\.toutiaocloud\.net$ _ REJECT
 
 # 输入法
-DOMAIN-SUFFIX, shouji.sogou.com, REJECT
-DOMAIN, sec.sginput.qq.com, REJECT
+URL-REGEX,^https?://.*\.shouji\.sogou\.com$ _ REJECT
+URL-REGEX,^https?://sec\.sginput\.qq\.com$ _ REJECT
 
 # Twitter
-DOMAIN-SUFFIX, app-measurement, REJECT
-DOMAIN-SUFFIX, doubleclick.net, REJECT
+URL-REGEX,^https?://.*\.app-measurement.*$ _ REJECT  # DOMAIN-SUFFIX 转换为包含后缀的正则
+URL-REGEX,^https?://.*\.doubleclick\.net$ _ REJECT
 
-#! Others
-DOMAIN, adengt.hpplay.cn, REJECT
-DOMAIN-KEYWORD, firebaselogging, REJECT
-DOMAIN-KEYWORD, abtest, REJECT
-DOMAIN-SUFFIX, log.aliyuncs.com, REJECT
-DOMAIN-SUFFIX, awstrack.me, REJECT
-DOMAIN-SUFFIX, mushroomtrack.com, REJECT
+# Others
+URL-REGEX,^https?://adengt\.hpplay\.cn$ _ REJECT
+URL-REGEX,^https?://.*firebaselogging.*$ _ REJECT
+URL-REGEX,^https?://.*abtest.*$ _ REJECT
+URL-REGEX,^https?://.*\.log\.aliyuncs\.com$ _ REJECT
+URL-REGEX,^https?://.*\.awstrack\.me$ _ REJECT
+URL-REGEX,^https?://.*\.mushroomtrack\.com$ _ REJECT
+
+[MITM]
+hostname = advertising.apple.com,apple.comscoreresearch.com,api-adservices.apple.com,banners.itunes.apple.com,iad.apple.com,iadcontent.apple.com,iadctest.qwapi.com,iadmoo.apple.com,iadworkbench.apple.com,launch.apple.com,metrics.apple.com,qwapi.com,securemetrics.apple.com,webproxy-advp.iad-apple.com,webproxy-advp.iad-apple.com.akadns.net,*.advp.apple.com,*.iadsdk.apple.com,collectlog.58.com,im58log.58.com,mercury-gateway.ixiaochuan.cn,adtracker.adfunlink.com,tracklog.jd.com,mllog.jd.com,p2plog.douyucdn.cn,p2perrorlog.douyucdn.cn,spider-tracker.xiaohongshu.com,ads-vp*.xhscdn.com,*log*.umeng.com,*log*.umengcloud.com,*-applog-lf*,*-ad-sign*,mon.toutiaocloud.com,mon.toutiaocloud.net,*.shouji.sogou.com,sec.sginput.qq.com,*.app-measurement*,*.doubleclick.net,adengt.hpplay.cn,*firebaselogging*,*abtest*,*.log.aliyuncs.com,*.awstrack.me,*.mushroomtrack.com
