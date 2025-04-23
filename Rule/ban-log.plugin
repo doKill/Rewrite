@@ -48,9 +48,8 @@
 ^https?:\/\/ads-vp.*\.xhscdn\.com - reject
 
 # umeng
-^https?:\/\/.*log.*\.umeng\.com - reject
-^https?:\/\/.*log.*\.umengcloud\.com - reject
-^https?:\/\/resolve\.umeng\.com - reject
+^https?:\/\/*.\.umeng\.com - reject
+^https?:\/\/*.\.umengcloud\.com - reject
 
 # 高德
 ^https?:\/\/dualstack-logs\.amap\.com - reject
@@ -86,4 +85,4 @@
 
 
 [MITM]
-hostname = advertising.apple.com,apple.comscoreresearch.com,api-adservices.apple.com,banners.itunes.apple.com,iad.apple.com,iadcontent.apple.com,iadctest.qwapi.com,iadmoo.apple.com,iadworkbench.apple.com,launch.apple.com,metrics.apple.com,qwapi.com,securemetrics.apple.com,webproxy-advp.iad-apple.com,webproxy-advp.iad-apple.com.akadns.net,*.advp.apple.com,*.iadsdk.apple.com,collectlog.58.com,im58log.58.com,mercury-gateway.ixiaochuan.cn,adtracker.adfunlink.com,tracklog.jd.com,mllog.jd.com,p2plog.douyucdn.cn,p2perrorlog.douyucdn.cn,spider-tracker.xiaohongshu.com,ads-vp*.xhscdn.com,*log*.umeng.com,*log*.umengcloud.com,*-applog-lf*,*-ad-sign*,mon.toutiaocloud.com,mon.toutiaocloud.net,*.shouji.sogou.com,sec.sginput.qq.com,app-measurement.com,*.doubleclick.net,adengt.hpplay.cn,*firebaselogging*,*abtest*,*.log.aliyuncs.com,*.awstrack.me,*.mushroomtrack.com,dualstack-logs.amap.com,app-analytics-services.com,metrics-logger.spot.im,log.zijieapi.com,ads*.zijieapi.com
+hostname = advertising.apple.com,apple.comscoreresearch.com,api-adservices.apple.com,banners.itunes.apple.com,iad.apple.com,iadcontent.apple.com,iadctest.qwapi.com,iadmoo.apple.com,iadworkbench.apple.com,launch.apple.com,metrics.apple.com,qwapi.com,securemetrics.apple.com,webproxy-advp.iad-apple.com,webproxy-advp.iad-apple.com.akadns.net,*.advp.apple.com,*.iadsdk.apple.com,collectlog.58.com,im58log.58.com,mercury-gateway.ixiaochuan.cn,adtracker.adfunlink.com,tracklog.jd.com,mllog.jd.com,p2plog.douyucdn.cn,p2perrorlog.douyucdn.cn,spider-tracker.xiaohongshu.com,ads-vp*.xhscdn.com,*.umeng.com,*.umengcloud.com,*-applog-lf*,*-ad-sign*,mon.toutiaocloud.com,mon.toutiaocloud.net,*.shouji.sogou.com,sec.sginput.qq.com,app-measurement.com,*.doubleclick.net,adengt.hpplay.cn,*firebaselogging*,*abtest*,*.log.aliyuncs.com,*.awstrack.me,*.mushroomtrack.com,dualstack-logs.amap.com,app-analytics-services.com,metrics-logger.spot.im,log.zijieapi.com,ads*.zijieapi.com
