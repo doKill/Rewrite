@@ -46,8 +46,11 @@
 # xiaohongshu
 ^https?:\/\/spider-tracker\.xiaohongshu\.com - reject
 ^https?:\/\/ads-vp.*\.xhscdn\.com - reject
+
+# umeng
 ^https?:\/\/.*log.*\.umeng\.com - reject
 ^https?:\/\/.*log.*\.umengcloud\.com - reject
+^https?:\/\/resolve\.umeng\.com - reject
 
 # 高德
 ^https?:\/\/dualstack-logs\.amap\.com - reject
