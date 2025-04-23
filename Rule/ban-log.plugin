@@ -7,7 +7,7 @@
 #!icon=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Adblock.png
 
 
-[URL Rewrite]
+[Rewrite]
 # Apple
 URL-REGEX,^https?://advertising\.apple\.com, REJECT
 URL-REGEX,^https?://apple\.comscoreresearch\.com, REJECT
