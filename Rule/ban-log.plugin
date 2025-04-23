@@ -62,7 +62,7 @@
 ^https?:\/\/sec\.sginput\.qq\.com - reject
 
 # Twitter
-^https?:\/\/.*app-measurement.* - reject
+^https?:\/\/app-measurement\.com - reject
 ^https?:\/\/.*doubleclick.* - reject
 ^https?:\/\/crashlyticsreports-pa\.googleapis\.com - reject
 
