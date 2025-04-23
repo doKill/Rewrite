@@ -63,6 +63,10 @@ DOMAIN, mon.toutiaocloud.net, REJECT
 DOMAIN-SUFFIX, shouji.sogou.com, REJECT
 DOMAIN, sec.sginput.qq.com, REJECT
 
+# Twitter
+DOMAIN-SUFFIX, app-measurement, REJECT
+DOMAIN-SUFFIX, doubleclick.net, REJECT
+
 #! Others
 DOMAIN, adengt.hpplay.cn, REJECT
 DOMAIN-KEYWORD, firebaselogging, REJECT
