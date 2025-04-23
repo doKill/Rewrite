@@ -9,69 +9,69 @@
 
 [URL Rewrite]
 # Apple
-^https?://advertising\.apple\.com - reject
-^https?://apple\.comscoreresearch\.com - reject
-^https?://api-adservices\.apple\.com - reject
-^https?://banners\.itunes\.apple\.com - reject
-^https?://iad\.apple\.com - reject
-^https?://iadcontent\.apple\.com - reject
-^https?://iadctest\.qwapi\.com - reject
-^https?://iadmoo\.apple\.com - reject
-^https?://iadworkbench\.apple\.com - reject
-^https?://launch\.apple\.com - reject
-^https?://metrics\.apple\.com - reject
-^https?://qwapi\.com - reject
-^https?://securemetrics\.apple\.com - reject
-^https?://webproxy-advp\.iad-apple\.com - reject
-^https?://webproxy-advp\.iad-apple\.com\.akadns\.net - reject
-^https?://.*\.advp\.apple\.com - reject
-^https?://.*\.iadsdk\.apple\.com - reject
+^https?:\/\/advertising\.apple\.com - reject
+^https?:\/\/apple\.comscoreresearch\.com - reject
+^https?:\/\/api-adservices\.apple\.com - reject
+^https?:\/\/banners\.itunes\.apple\.com - reject
+^https?:\/\/iad\.apple\.com - reject
+^https?:\/\/iadcontent\.apple\.com - reject
+^https?:\/\/iadctest\.qwapi\.com - reject
+^https?:\/\/iadmoo\.apple\.com - reject
+^https?:\/\/iadworkbench\.apple\.com - reject
+^https?:\/\/launch\.apple\.com - reject
+^https?:\/\/metrics\.apple\.com - reject
+^https?:\/\/qwapi\.com - reject
+^https?:\/\/securemetrics\.apple\.com - reject
+^https?:\/\/webproxy-advp\.iad-apple\.com - reject
+^https?:\/\/webproxy-advp\.iad-apple\.com\.akadns\.net - reject
+^https?:\/\/.*\.advp\.apple\.com - reject
+^https?:\/\/.*\.iadsdk\.apple\.com - reject
 
 #安居客
-^https?://collectlog\.58\.com - reject
-^https?://im58log\.58\.com - reject
+^https?:\/\/collectlog\.58\.com - reject
+^https?:\/\/im58log\.58\.com - reject
 
 # xunlei
-^https?://mercury-gateway\.ixiaochuan\.cn - reject
-^https?://adtracker\.adfunlink\.com - reject
+^https?:\/\/mercury-gateway\.ixiaochuan\.cn - reject
+^https?:\/\/adtracker\.adfunlink\.com - reject
 
 # JD
-^https?://tracklog\.jd\.com - reject
-^https?://mllog\.jd\.com - reject
+^https?:\/\/tracklog\.jd\.com - reject
+^https?:\/\/mllog\.jd\.com - reject
 
 # 斗鱼
-^https?://p2plog\.douyucdn\.cn - reject
-^https?://p2perrorlog\.douyucdn\.cn - reject
+^https?:\/\/p2plog\.douyucdn\.cn - reject
+^https?:\/\/p2perrorlog\.douyucdn\.cn - reject
 
 # xiaohongshu
-^https?://spider-tracker\.xiaohongshu\.com - reject
-^https?://ads-vp.*\.xhscdn\.com - reject
-^https?://.*log.*\.umeng\.com - reject
-^https?://.*log.*\.umengcloud\.com - reject
+^https?:\/\/spider-tracker\.xiaohongshu\.com - reject
+^https?:\/\/ads-vp.*\.xhscdn\.com - reject
+^https?:\/\/.*log.*\.umeng\.com - reject
+^https?:\/\/.*log.*\.umengcloud\.com - reject
 
 # 番茄
-^https?://.*-applog-lf.* - reject
-^https?://.*-ad-sign.* - reject
+^https?:\/\/.*-applog-lf.* - reject
+^https?:\/\/.*-ad-sign.* - reject
 
 # 字节
-^https?://mon\.toutiaocloud\.com - reject
-^https?://mon\.toutiaocloud\.net - reject
+^https?:\/\/mon\.toutiaocloud\.com - reject
+^https?:\/\/mon\.toutiaocloud\.net - reject
 
 # 输入法
-^https?://.*\.shouji\.sogou\.com - reject
-^https?://sec\.sginput\.qq\.com - reject
+^https?:\/\/.*\.shouji\.sogou\.com - reject
+^https?:\/\/sec\.sginput\.qq\.com - reject
 
 # Twitter
-^https?://.*\.app-measurement.* - reject
-^https?://.*\.doubleclick\.net - reject
+^https?:\/\/.*\.app-measurement.* - reject
+^https?:\/\/.*\.doubleclick\.net - reject
 
 # Others
-^https?://adengt\.hpplay\.cn - reject
-^https?://.*firebaselogging.* - reject
-^https?://.*abtest.* - reject
-^https?://.*\.log\.aliyuncs\.com - reject
-^https?://.*\.awstrack\.me - reject
-^https?://.*\.mushroomtrack\.com - reject
+^https?:\/\/adengt\.hpplay\.cn - reject
+^https?:\/\/.*firebaselogging.* - reject
+^https?:\/\/.*abtest.* - reject
+^https?:\/\/.*\.log\.aliyuncs\.com - reject
+^https?:\/\/.*\.awstrack\.me - reject
+^https?:\/\/.*\.mushroomtrack\.com - reject
 
 
 [MITM]
