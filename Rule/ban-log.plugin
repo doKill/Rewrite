@@ -7,71 +7,71 @@
 #!icon=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Adblock.png
 
 
-[Rewrite]
+[URL Rewrite]
 # Apple
-^https?://advertising\.apple\.com _ REJECT
-^https?://apple\.comscoreresearch\.com _ REJECT
-^https?://api-adservices\.apple\.com _ REJECT
-^https?://banners\.itunes\.apple\.com _ REJECT
-^https?://iad\.apple\.com _ REJECT
-^https?://iadcontent\.apple\.com _ REJECT
-^https?://iadctest\.qwapi\.com _ REJECT
-^https?://iadmoo\.apple\.com _ REJECT
-^https?://iadworkbench\.apple\.com _ REJECT
-^https?://launch\.apple\.com _ REJECT
-^https?://metrics\.apple\.com _ REJECT
-^https?://qwapi\.com _ REJECT
-^https?://securemetrics\.apple\.com _ REJECT
-^https?://webproxy-advp\.iad-apple\.com _ REJECT
-^https?://webproxy-advp\.iad-apple\.com\.akadns\.net _ REJECT
-^https?://.*\.advp\.apple\.com _ REJECT
-^https?://.*\.iadsdk\.apple\.com _ REJECT
+^https?://advertising\.apple\.com - REJECT
+^https?://apple\.comscoreresearch\.com - REJECT
+^https?://api-adservices\.apple\.com - REJECT
+^https?://banners\.itunes\.apple\.com - REJECT
+^https?://iad\.apple\.com - REJECT
+^https?://iadcontent\.apple\.com - REJECT
+^https?://iadctest\.qwapi\.com - REJECT
+^https?://iadmoo\.apple\.com - REJECT
+^https?://iadworkbench\.apple\.com - REJECT
+^https?://launch\.apple\.com - REJECT
+^https?://metrics\.apple\.com - REJECT
+^https?://qwapi\.com - REJECT
+^https?://securemetrics\.apple\.com - REJECT
+^https?://webproxy-advp\.iad-apple\.com - REJECT
+^https?://webproxy-advp\.iad-apple\.com\.akadns\.net - REJECT
+^https?://.*\.advp\.apple\.com - REJECT
+^https?://.*\.iadsdk\.apple\.com - REJECT
 
 #安居客
-^https?://collectlog\.58\.com _ REJECT
-^https?://im58log\.58\.com _ REJECT
+^https?://collectlog\.58\.com - REJECT
+^https?://im58log\.58\.com - REJECT
 
 # xunlei
-^https?://mercury-gateway\.ixiaochuan\.cn _ REJECT
-^https?://adtracker\.adfunlink\.com _ REJECT
+^https?://mercury-gateway\.ixiaochuan\.cn - REJECT
+^https?://adtracker\.adfunlink\.com - REJECT
 
 # JD
-^https?://tracklog\.jd\.com _ REJECT
-^https?://mllog\.jd\.com _ REJECT
+^https?://tracklog\.jd\.com - REJECT
+^https?://mllog\.jd\.com - REJECT
 
 # 斗鱼
-^https?://p2plog\.douyucdn\.cn _ REJECT
-^https?://p2perrorlog\.douyucdn\.cn _ REJECT
+^https?://p2plog\.douyucdn\.cn - REJECT
+^https?://p2perrorlog\.douyucdn\.cn - REJECT
 
 # xiaohongshu
-^https?://spider-tracker\.xiaohongshu\.com _ REJECT
-^https?://ads-vp.*\.xhscdn\.com _ REJECT
-^https?://.*log.*\.umeng\.com _ REJECT
-^https?://.*log.*\.umengcloud\.com _ REJECT
+^https?://spider-tracker\.xiaohongshu\.com - REJECT
+^https?://ads-vp.*\.xhscdn\.com - REJECT
+^https?://.*log.*\.umeng\.com - REJECT
+^https?://.*log.*\.umengcloud\.com - REJECT
 
 # 番茄
-^https?://.*-applog-lf.* _ REJECT
-^https?://.*-ad-sign.* _ REJECT
+^https?://.*-applog-lf.* - REJECT
+^https?://.*-ad-sign.* - REJECT
 
 # 字节
-^https?://mon\.toutiaocloud\.com _ REJECT
-^https?://mon\.toutiaocloud\.net _ REJECT
+^https?://mon\.toutiaocloud\.com - REJECT
+^https?://mon\.toutiaocloud\.net - REJECT
 
 # 输入法
-^https?://.*\.shouji\.sogou\.com _ REJECT
-^https?://sec\.sginput\.qq\.com _ REJECT
+^https?://.*\.shouji\.sogou\.com - REJECT
+^https?://sec\.sginput\.qq\.com - REJECT
 
 # Twitter
-^https?://.*\.app-measurement.* _ REJECT
-^https?://.*\.doubleclick\.net _ REJECT
+^https?://.*\.app-measurement.* - REJECT
+^https?://.*\.doubleclick\.net - REJECT
 
 # Others
-^https?://adengt\.hpplay\.cn _ REJECT
-^https?://.*firebaselogging.* _ REJECT
-^https?://.*abtest.* _ REJECT
-^https?://.*\.log\.aliyuncs\.com _ REJECT
-^https?://.*\.awstrack\.me _ REJECT
-^https?://.*\.mushroomtrack\.com _ REJECT
+^https?://adengt\.hpplay\.cn - REJECT
+^https?://.*firebaselogging.* - REJECT
+^https?://.*abtest.* - REJECT
+^https?://.*\.log\.aliyuncs\.com - REJECT
+^https?://.*\.awstrack\.me - REJECT
+^https?://.*\.mushroomtrack\.com - REJECT
 
 
 [MITM]
