@@ -1,0 +1,6 @@
+# dnstest
+DOMAIN-SUFFIX,dnsleaktest.com
+DOMAIN-KEYWORD,browserleaks
+
+# ETSY
+DOMAIN-SUFFIX,etsystatic.com
