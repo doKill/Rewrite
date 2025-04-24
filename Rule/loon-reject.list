@@ -1,0 +1,42 @@
+# 1688
+DOMAIN-SUFFIX, log.aliyuncs.com
+
+
+# JD
+DOMAIN, tracklog.jd.com
+DOMAIN, mllog.jd.com
+
+
+# fanqie
+DOMAIN-KEYWORD, -applog-lf
+DOMAIN-KEYWORD, -ad-sign
+DOMAIN-KEYWORD, -normal-lf
+DOMAIN-KEYWORD, lf-normal-
+DOMAIN-KEYWORD, -misc-lf
+DOMAIN, lf-reward-video.bytecdn.com
+
+
+# xiaohongshu
+URL-REGEX,ads-vp[\w-]+\.xhscdn.com
+
+
+# xunlei
+DOMAIN, mercury-gateway.ixiaochuan.cn
+DOMAIN, adtracker.adfunlink.com
+URL-REGEX, analys[\w-]+\.xunlei.com
+
+
+# 输入法
+DOMAIN-SUFFIX, shouji.sogou.com
+DOMAIN, sec.sginput.qq.com
+
+
+# 其他
+DOMAIN, log.mmstat.com
+DOMAIN, mon.toutiaocloud.com
+DOMAIN, mon.toutiaocloud.net
+DOMAIN, log.mmstat.com
+DOMAIN, sdk-data.ubixioe.com
+DOMAIN, adengt.hpplay.cn
+DOMAIN, hubciddata.sandai.net
+DOMAIN-SUFFIX, awstrack.me
