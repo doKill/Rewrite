@@ -1,3 +1,10 @@
+# 禁iOS更新
+DOMAIN, mesu.apple.com
+DOMAIN, gdmf.apple.com
+DOMAIN, updates-http.cdn-apple.com
+DOMAIN, xp.apple.com
+
+
 # 1688
 DOMAIN-SUFFIX, log.aliyuncs.com
 
