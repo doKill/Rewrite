@@ -28,7 +28,7 @@ DOMAIN, lf-reward-video.bytecdn.com
 # xunlei
 DOMAIN, mercury-gateway.ixiaochuan.cn
 DOMAIN, adtracker.adfunlink.com
-URL-REGEX, analys[\w-]+\.xunlei.com
+# URL-REGEX, analys[\w-]+\.xunlei.com
 
 
 # 输入法
