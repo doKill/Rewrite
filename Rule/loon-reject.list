@@ -22,7 +22,7 @@ DOMAIN, lf-reward-video.bytecdn.com
 
 
 # xiaohongshu
-URL-REGEX,ads-vp[\w-]+\.xhscdn.com
+# URL-REGEX,ads-vp[\w-]+\.xhscdn.com
 
 
 # xunlei
