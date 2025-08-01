@@ -6,7 +6,7 @@
 
 
 [Rewrite]
-^https?:\/\/fxg\.jinritemai\.com\/api\/order\/searchlist.* response-body-json-jq '.data[].product_item[] |= ((.properties[] | select(.key == "author").text) as $author_text | .tags |= map(if .key | contains("c_biz_alliance") then .hover_text += ("---「" + $author_text + "」") else . end))'
+^https?:\/\/fxg\.jinritemai\.com\/api\/order\/searchlist.* response-body-json-jq '.data[].product_item[].tags |= map(select((.key | contains("_label") | not) and (.key | contains("delay_send") | not)))'
 
 [MITM]
 hostname = *.jinritemai.com
