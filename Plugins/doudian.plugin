@@ -1,0 +1,16 @@
+#!name=抖店
+#!description=抖店移除列表无用标签,将精选联盟达人展示出来
+#!openUrl=https://github.com/doKill
+#!author=doKill
+#!homepage=https://github.com/doKill/Rewrite/
+#!icon= https://www.google.com/s2/favicons?sz=64&domain=fxg.jinritemai.com
+
+
+[Rewrite]
+// ^https?:\/\/fxg\.jinritemai\.com\/api\/order\/searchlist.* response-body-json-jq '.data[].product_item[].tags |= map(select((.key | contains("_label") | not) and (.key | contains("delay_send") | not)))'
+
+[Script]
+http-response ^https?:\/\/fxg\.jinritemai\.com\/api\/order\/searchlist.* script-path=https://raw.githubusercontent.com/doKill/Rewrite/master/Js/doudian.js, requires-body=true, timeout=10, tag=抖店
+
+[MITM]
+hostname = *.jinritemai.com
