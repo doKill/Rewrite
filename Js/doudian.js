@@ -25,7 +25,7 @@ function modifyResponse (body) {
             const receiverInfo = dataItem.receiver_info;
             const provinceName = receiverInfo?.post_addr?.province?.name || '';
             const cityName = receiverInfo?.post_addr?.city?.name || '';
-            dataItem.policy_info = (productItem.policy_info || []).map(item => {
+            dataItem.policy_info = (dataItem.policy_info || []).map(item => {
                 return Object.assign(item, {
                     policy_type_text: '地址',
                     status_desc: provinceName,
