@@ -17,10 +17,16 @@ function modifyResponse (body) {
             return;
         }
 
-        const receiverInfo = dataItem.receiver_info;
-        const provinceName = receiverInfo?.post_addr?.province?.name || '';
-        const cityName = receiverInfo?.post_addr?.city?.name || '';
-        const townName = receiverInfo?.post_addr?.town?.name || '';
+
+        // 列表显示收货地址省市
+        const { receiver_info } = dataItem;
+        const {
+            post_addr: {
+                province: { name: provinceName = '' } = {},
+                city: { name: cityName = '' } = {},
+                town: { name: townName = '' } = {}
+            } = {}
+        } = receiver_info || {};
 
         dataItem.policy_info = (dataItem.policy_info || []).map(item => {
             return Object.assign(item, {
@@ -30,6 +36,8 @@ function modifyResponse (body) {
             })
         });
 
+
+        // 列表只显示订单来源，若为联盟订单则展示达人信息
         dataItem.product_item.forEach(productItem => {
             // 获取authorText，如果不存在则为空字符串
             const authorText = productItem.properties?.find(prop => prop.key === 'author')?.text || '';
