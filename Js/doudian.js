@@ -17,23 +17,22 @@ function modifyResponse (body) {
             return;
         }
 
+        const receiverInfo = dataItem.receiver_info;
+        const provinceName = receiverInfo?.post_addr?.province?.name || '';
+        const cityName = receiverInfo?.post_addr?.city?.name || '';
+        const townName = receiverInfo?.post_addr?.town?.name || '';
+
+        dataItem.policy_info = (dataItem.policy_info || []).map(item => {
+            return Object.assign(item, {
+                policy_type_text: '地址',
+                status_desc: provinceName,
+                policy_detail_text: `${cityName}-${townName}`
+            })
+        });
+
         dataItem.product_item.forEach(productItem => {
             // 获取authorText，如果不存在则为空字符串
             const authorText = productItem.properties?.find(prop => prop.key === 'author')?.text || '';
-
-
-            const receiverInfo = dataItem.receiver_info;
-            const provinceName = receiverInfo?.post_addr?.province?.name || '';
-            const cityName = receiverInfo?.post_addr?.city?.name || '';
-            const townName = receiverInfo?.post_addr?.town?.name || '';
-            dataItem.policy_info = (dataItem.policy_info || []).map(item => {
-                return Object.assign(item, {
-                    policy_type_text: '地址',
-                    status_desc: provinceName,
-                    policy_detail_text: `${cityName}-${townName}`
-                })
-            });
-
 
             if (!productItem.tags || !Array.isArray(productItem.tags)) {
                 return; // 跳过没有tags的ProductItem
