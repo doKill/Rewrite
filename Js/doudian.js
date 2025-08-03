@@ -21,7 +21,9 @@ function modifyResponse (body) {
             // 获取authorText，如果不存在则为空字符串
             const authorText = productItem.properties?.find(prop => prop.key === 'author')?.text || '';
 
-            const { province: { name: provinceName }, city: { name: cityName } } = productItem.receiver_info.post_addr
+            const receiverInfo = productItem.receiver_info;
+            const provinceName = receiverInfo?.post_addr?.province?.name || '';
+            const cityName = receiverInfo?.post_addr?.city?.name || '';
 
             productItem.policy_info = [
                 {
