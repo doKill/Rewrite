@@ -27,28 +27,15 @@ function modifyResponse (body) {
 
             productItem.policy_info = [
                 {
-                    "ins_policy_no": "",
+                    "ins_policy_no": "111111111111111111",
                     "policy_type": "returnfreight2020v1",
                     "policy_type_text": "地址",
                     "status": 1,
-                    "status_desc": "222",
+                    "status_desc": provinceName,
                     "detail_url": "",
-                    "policy_detail_text": `111${provinceName}${cityName}`
+                    "policy_detail_text": cityName
                 }
             ];
-
-
-            productItem.privilege_info_list = [
-                {
-                    "privilege_code": "returnfreight2020v1",
-                    "privilege_name": "地址",
-                    "status": 1,
-                    "status_desc": `333${provinceName}${cityName}`,
-                    "detail_url": "",
-                    "ins_policy_no": ""
-                }
-            ];
-
 
 
             if (!productItem.tags || !Array.isArray(productItem.tags)) {
@@ -73,13 +60,12 @@ function modifyResponse (body) {
 }
 
 function onResponseBody (response) {
-    let res = {}
     try {
-        res = modifyResponse(response);
+        return modifyResponse(response);
     } catch (e) {
         console.error("Script error:", e);
+        return response;
     }
-    return res
 }
 
 $done({ body: onResponseBody($response.body) });
