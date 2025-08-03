@@ -25,11 +25,11 @@ function modifyResponse (body) {
 
             productItem.policy_info = [
                 {
-                    "ins_policy_no": "10202508012230091012319241166",
+                    "ins_policy_no": "",
                     "policy_type": "returnfreight2020v1",
                     "policy_type_text": "地址",
                     "status": 1,
-                    "status_desc": "待生效",
+                    "status_desc": "222",
                     "detail_url": "",
                     "policy_detail_text": `111${provinceName}${cityName}`
                 }
@@ -41,9 +41,9 @@ function modifyResponse (body) {
                     "privilege_code": "returnfreight2020v1",
                     "privilege_name": "地址",
                     "status": 1,
-                    "status_desc": `222${provinceName}${cityName}`,
+                    "status_desc": `333${provinceName}${cityName}`,
                     "detail_url": "",
-                    "ins_policy_no": "10202508020002391456406570203"
+                    "ins_policy_no": ""
                 }
             ];
 
