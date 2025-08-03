@@ -21,16 +21,19 @@ function modifyResponse (body) {
             // 获取authorText，如果不存在则为空字符串
             const authorText = productItem.properties?.find(prop => prop.key === 'author')?.text || '';
 
+            if (!productItem.policy_info || !Array.isArray(productItem.policy_info)) {
+                return;
+            }
+
             const receiverInfo = productItem.receiver_info;
             const provinceName = receiverInfo?.post_addr?.province?.name || '';
             const cityName = receiverInfo?.post_addr?.city?.name || '';
-
-
-            productItem.policy_info = productItem.policy_info.map(item => {
-                item.policy_type_text = '地址';
-                item.status_desc = provinceName
-                item.policy_detail_text = cityName
-                return item;
+            productItem.policy_info = (productItem.policy_info || []).map(item => {
+                return Object.assign(item, {
+                    policy_type_text: '地址',
+                    status_desc: provinceName,
+                    policy_detail_text: cityName
+                })
             });
 
 
@@ -38,7 +41,6 @@ function modifyResponse (body) {
             if (!productItem.tags || !Array.isArray(productItem.tags)) {
                 return; // 跳过没有tags的ProductItem
             }
-
             productItem.tags = productItem.tags
                 .filter(tag => {
                     const key = tag.key;
