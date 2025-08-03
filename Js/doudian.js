@@ -25,17 +25,15 @@ function modifyResponse (body) {
             const provinceName = receiverInfo?.post_addr?.province?.name || '';
             const cityName = receiverInfo?.post_addr?.city?.name || '';
 
-            productItem.policy_info = [
-                {
-                    "ins_policy_no": "111111111111111111",
-                    "policy_type": "returnfreight2020v1",
-                    "policy_type_text": "地址",
-                    "status": 1,
-                    "status_desc": provinceName,
-                    "detail_url": "",
-                    "policy_detail_text": cityName
-                }
-            ];
+            productItem.policy_info = [{
+                "ins_policy_no": "10202508030432181934459913752",
+                "policy_type": "returnfreight2020v1",
+                "policy_type_text": "地址",
+                "status": 1,
+                "status_desc": provinceName,
+                "detail_url": "https://fxg.baohuaxia.com/h5/trade/insurance?order_id=1234567890",
+                "policy_detail_text": cityName
+            }];
 
 
             if (!productItem.tags || !Array.isArray(productItem.tags)) {
