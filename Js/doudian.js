@@ -33,8 +33,10 @@ function modifyResponse (body) {
                 "policy_detail_text": `${provinceName}${cityName}`
             }]
 
-            productItem.privilege_info_list[0].privilege_name = "地址";
-            productItem.privilege_info_list[0].status_desc = `${provinceName}${cityName}`;
+            if (productItem.privilege_info_list != null && productItem.privilege_info_list.length > 0) {
+                productItem.privilege_info_list[0].privilege_name = "地址";
+                productItem.privilege_info_list[0].status_desc = `${provinceName || ''}${cityName || ''}`;
+            }
 
 
             if (!productItem.tags || !Array.isArray(productItem.tags)) {
