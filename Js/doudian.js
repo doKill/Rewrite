@@ -33,7 +33,7 @@ function modifyResponse (body) {
             return Object.assign(item, {
                 policy_type_text: provinceName,
                 status_desc: cityName,
-                policy_detail_text: `${townName}-${streetName}`
+                policy_detail_text: `${townName}${streetName ? '-' + streetName : ''}`
             })
         });
 
