@@ -19,15 +19,16 @@ function modifyResponse (body) {
 
 
         // 列表显示收货地址省市
-        const { receiver_info } = dataItem;
-        const {
+        let {
             post_addr: {
                 province: { name: provinceName = '' } = {},
                 city: { name: cityName = '' } = {},
                 town: { name: townName = '' } = {},
                 street: { name: streetName = '' } = {},
             } = {}
-        } = receiver_info || {};
+        } = dataItem.receiver_info || {};
+
+        provinceName.includes('新疆') && (provinceName = '新疆');
 
         dataItem.policy_info = (dataItem.policy_info || []).map(item => {
             return Object.assign(item, {
