@@ -17,7 +17,6 @@ function modifyResponse (body) {
             return;
         }
 
-
         // 列表显示收货地址省市
         let {
             post_addr: {
