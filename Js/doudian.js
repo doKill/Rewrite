@@ -24,15 +24,16 @@ function modifyResponse (body) {
             post_addr: {
                 province: { name: provinceName = '' } = {},
                 city: { name: cityName = '' } = {},
-                town: { name: townName = '' } = {}
+                town: { name: townName = '' } = {},
+                street: { name: streetName = '' } = {},
             } = {}
         } = receiver_info || {};
 
         dataItem.policy_info = (dataItem.policy_info || []).map(item => {
             return Object.assign(item, {
-                policy_type_text: '地址',
-                status_desc: provinceName,
-                policy_detail_text: `${cityName}-${townName}`
+                policy_type_text: provinceName,
+                status_desc: cityName,
+                policy_detail_text: `${townName}-${streetName}`
             })
         });
 
