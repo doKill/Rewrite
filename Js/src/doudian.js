@@ -30,7 +30,7 @@ function modifyResponse (body) {
         } = dataItem.receiver_info || {};
 
         longText.forEach(item => {
-            provinceName.includes(item) && (provinceName = item);
+            provinceName.includes(item) && (provinceName = item)
         })
 
 
