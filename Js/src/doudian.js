@@ -1,3 +1,5 @@
+const longText = ['新疆', '广西', '西藏', '宁夏']
+
 
 function modifyResponse (body) {
     let jsonBody;
@@ -27,7 +29,10 @@ function modifyResponse (body) {
             } = {}
         } = dataItem.receiver_info || {};
 
-        provinceName.includes('新疆') && (provinceName = '新疆');
+        longText.forEach(item => {
+            provinceName.includes(item) && (provinceName = item);
+        })
+
 
         dataItem.policy_info = (dataItem.policy_info || []).map(item => {
             return Object.assign(item, {
