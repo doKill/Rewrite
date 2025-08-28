@@ -4,3 +4,7 @@ DOMAIN-KEYWORD,browserleaks
 
 # ETSY
 DOMAIN-SUFFIX,etsystatic.com
+
+
+# bitwarden
+DOMAIN, bitwarden.funccn.com
