@@ -19,7 +19,6 @@ DOMAIN-KEYWORD, -applog-lf
 DOMAIN-KEYWORD, -ad-sign
 DOMAIN-KEYWORD, -misc-lf
 DOMAIN, lf-reward-video.bytecdn.com
-URL-REGEX,^https:\/\/mon\d+-misc\.fqnovel\.com
 
 
 # xiaohongshu
