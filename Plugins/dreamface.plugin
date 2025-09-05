@@ -8,7 +8,8 @@
 
 [Rewrite]
 // ^https?:\/\/fxg\.jinritemai\.com\/api\/order\/searchlist.* response-body-json-jq '.data[].product_item[].tags |= map(select((.key | contains("_label") | not) and (.key | contains("delay_send") | not)))'
-^https?:\/\/dreamfaceapp.com\/df-trace\/log reject
+^https?:\/\/dreamfaceapp\.com\/df-trace\/log reject
+^https?:\/\/ai\.dreamfaceapp.com\/apm reject
 
 [Script]
 http-response ^https?:\/\/dreamfaceapp\.com\/df-server\/subscribe\/get_remaining_credits script-path=https://raw.githubusercontent.com/doKill/Rewrite/master/Js/dist/dreamface_2.js, requires-body=true, timeout=10, tag=DreamFace_2
