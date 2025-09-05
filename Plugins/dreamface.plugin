@@ -18,4 +18,4 @@ http-response ^https?:\/\/dreamfaceapp\.com\/df-server\/subscribe\/get_remaining
 http-response ^https?:\/\/dreamfaceapp\.com\/df-server\/user\/save_user_login script-path=https://raw.githubusercontent.com/doKill/Rewrite/master/Js/dist/dreamface.js, requires-body=true, timeout=10, tag=DreamFace
 
 [MITM]
-hostname = dreamfaceapp.com
+hostname = dreamfaceapp.com, aidreamface.com
