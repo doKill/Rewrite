@@ -1,4 +1,4 @@
-const Data = {
+const vipData = {
   renewal: false,
   vip_type: "vip",
   vip_label: true,
@@ -6,6 +6,13 @@ const Data = {
   expires_date: 9999999999999, // Sets an expiration timestamp far in the future
   have_trial: false,
   expires_date_format: "2099-09-09 09:09:09", // A corresponding future date string
+  vip_product_id: "96",
+};
+const rightsData = {
+  renewal: true,
+  vip_label: true,
+  expires_date: 148204937166000,
+  expires_date_format: "2099-09-09 09:09:09",
   vip_product_id: "96",
 };
 
@@ -22,7 +29,8 @@ function modifyResponse(body) {
     return JSON.stringify(jsonBody);
   }
 
-  jsonBody.data.vip_info = Data;
+  jsonBody.data.vip_info = vipData;
+  jsonBody.data.rights = rightsData;
 
   return JSON.stringify(jsonBody);
 }
