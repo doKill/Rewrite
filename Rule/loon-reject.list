@@ -8,6 +8,10 @@ DOMAIN, xp.apple.com
 # 1688
 DOMAIN-SUFFIX, log.aliyuncs.com
 
+# DreamFace
+DOMAIN, log.aidreamface.com
+DOMAIN, log.dreamfaceapp.com
+
 
 # JD
 DOMAIN, tracklog.jd.com
