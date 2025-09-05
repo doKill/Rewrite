@@ -11,7 +11,7 @@ const vipData = {
 const rightsData = {
   renewal: true,
   vip_label: true,
-  expires_date: 148204937166000,
+  expires_date: 409261854900000,
   expires_date_format: "2099-09-09 09:09:09",
   vip_product_id: "96",
 };
