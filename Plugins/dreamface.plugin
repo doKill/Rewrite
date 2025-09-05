@@ -10,6 +10,7 @@
 // ^https?:\/\/fxg\.jinritemai\.com\/api\/order\/searchlist.* response-body-json-jq '.data[].product_item[].tags |= map(select((.key | contains("_label") | not) and (.key | contains("delay_send") | not)))'
 
 [Script]
+http-response ^https?:\/\/dreamfaceapp\.com\/df-server\/subscribe\/get_remaining_credits script-path=https://raw.githubusercontent.com/doKill/Rewrite/master/Js/dist/dreamface_2.js, requires-body=true, timeout=10, tag=DreamFace_2
 http-response ^https?:\/\/dreamfaceapp\.com\/df-server\/user\/save_user_login script-path=https://raw.githubusercontent.com/doKill/Rewrite/master/Js/dist/dreamface.js, requires-body=true, timeout=10, tag=DreamFace
 
 [MITM]
