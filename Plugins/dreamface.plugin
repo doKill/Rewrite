@@ -14,8 +14,8 @@
 ^https?:\/\/aidreamfaceapp\.com\/df-server\/abtest reject
 
 [Script]
-http-response ^https?:\/\/dreamfaceapp\.com\/df-server\/subscribe\/get_remaining_credits script-path=https://raw.githubusercontent.com/doKill/Rewrite/master/Js/dist/dreamface_2.js, requires-body=true, timeout=10, tag=DreamFace_2
-http-response ^https?:\/\/dreamfaceapp\.com\/df-server\/user\/save_user_login script-path=https://raw.githubusercontent.com/doKill/Rewrite/master/Js/dist/dreamface.js, requires-body=true, timeout=10, tag=DreamFace
+http-response ^https?:\/\/dreamfaceapp\.com\/df-server\/(user\/save_user_login|subscribe\/get_remaining_credits) script-path=https://raw.githubusercontent.com/doKill/Rewrite/master/Js/dist/dreamface.js, requires-body=true, timeout=10, tag=DreamFace
+
 
 [MITM]
 hostname = dreamfaceapp.com, aidreamface.com
