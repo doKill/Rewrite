@@ -43,6 +43,7 @@ function modifyResponseBody(url, body) {
       expires_date_format: "2099-09-09 09:09:09",
       vip_product_id: "96",
     };
+    jsonBody.data.repeat_subscribe = true;
   }
   // Logic for the get credits endpoint
   else if (url.includes("/subscribe/get_remaining_credits")) {
