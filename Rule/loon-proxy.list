@@ -5,6 +5,8 @@ DOMAIN-KEYWORD,browserleaks
 # ETSY
 DOMAIN-SUFFIX,etsystatic.com
 
+# office-v6-service
+DOMAIN-SUFFIX,cnfun.dpdns.org
 
 # bitwarden
-DOMAIN, bitwarden.funccn.com
+DOMAIN, bw.funccn.com
