@@ -5,5 +5,7 @@ DOMAIN-KEYWORD,browserleaks
 # ETSY
 DOMAIN-SUFFIX,etsystatic.com
 
-# bitwarden
-DOMAIN, bw.funccn.com
+DOMAIN-SUFFIX,google.com
+DOMAIN-SUFFIX,googleapis.com
+DOMAIN-SUFFIX,googleusercontent.com
+DOMAIN-SUFFIX,youtube.com
